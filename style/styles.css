@@ -1,0 +1,536 @@
+body {
+
+background: url(../images/background.jpg) no-repeat fixed;
+
+	color: #8f8f8f;
+	font: 12px Tahoma, sans-serif;
+	background-color: #f8f8f8;
+	border-top: 5px solid #7e7e7e;
+	margin: 0;
+}
+#base{
+    
+background-color: #e5c1c1;
+margin: 0px -150px 0px -150px;
+}
+input[type="text"] {
+	background-color: #f3f3f3;
+	border: 1px solid #e7e7e7;
+	height: 30px;
+	color: #b2b2b2;
+	padding: 0 10px;
+	vertical-align: top;
+}
+button {
+	color: #fff;
+	background-color: #980000;
+	border: none;
+	height: 32px;
+	font-family: 'Oswald', sans-serif;
+}
+
+p {
+text-align: justify;
+color: black;
+font-size: 15px;
+
+	margin-left: 40px;
+}
+h2{
+color: black;
+}
+#wrapper {
+	max-width: 960px;
+	margin: auto;
+}
+header {
+	padding: 10px 0;
+}
+form[name="search"] {
+	float: right;
+    margin-right: 200px;
+}
+nav a {
+	text-decoration: none;
+}
+	
+nav ul {
+
+width: 100%;
+height: 100%;
+background-color: #b03131;
+	
+
+	padding: 0;
+}
+
+nav li {
+	list-style-position: inside;
+	font: 14px 'Oswald', sans-serif;
+	padding: 10px;
+}
+
+.top-menu li {
+	display: inline-block;
+	padding: 10px 30px;
+	margin: 0;
+}
+
+
+.top-menu li.active {
+	background: #980000;
+	color: #fff;
+}
+
+.top-menu a {
+	color: #b2b2b2;
+}
+#heading {
+	background: transparent url(../images/h1-bg.png);
+	margin: 30px 0;
+	padding-left: 20px;
+}
+
+h1 {
+
+	display: inline-block;
+	color: #7e7e7e;
+	font: 40px/40px 'Oswald', sans-serif;
+	background: url(../images/bg.png);
+	margin: 0;
+	padding: 0 10px;
+}
+section {
+	margin-right: 50px;
+	padding-bottom: 50px;
+}
+blockquote {
+    border-radius: 10px;
+	margin: 5;
+	background: #bf3d3d;
+	padding: 10px 20px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+}
+
+blockquote p {
+	color: #fff;
+	font-style: italic;
+	font-size: 33px;
+	margin: 0;
+}
+
+blockquote cite {
+	display: block;
+	font-size: 20px;
+	font-style: normal;
+	color: black;
+	margin: 0;
+	text-align: left;
+}
+
+figure {
+border-radius: 10px;
+	display: inline-block;
+	margin: 0;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+}
+
+figure img {
+    border-radius: 10px;
+margin-left: 150px;
+	display: block;
+	
+}
+
+figure figcaption {
+	font-size: 16px;
+	font-weight: 300;
+	margin-left: 200px;
+}
+
+
+section > figure + figure {
+	margin-left: 10px;
+}
+
+video {
+width: 600px; 
+height: 400px;
+
+}
+#video{
+
+margin-left: 300px;
+}
+#pic{
+margin-left: 300px;	
+}
+footer {
+margin: 0px -150px 0px -150px;
+	background: #7e7e7e;
+	color: #dbdbdb;
+	font-size: 11px;
+}
+
+#footer {
+	max-width: 960px;
+	margin: auto;
+	padding: 10px 0;
+	height: 100px;
+}
+footer h3 {
+	font: 14px 'Oswald', sans-serif;
+	color: #fff;
+	border-bottom: 1px solid #919191;
+	margin: 0 0 10px 0;
+}
+footer p {
+	margin: 5px 0;
+}
+footer a {
+	color: #dbdbdb;
+}
+
+#info time a {
+	color: #b4aeae;
+}
+
+#info {
+	float: left;
+	width: 300px;
+}
+
+#info p {
+font-size: 12px;
+text-align: left;
+color: white;
+	padding-right: 15px;
+}
+
+#social {
+	float: left;
+	margin-left: 20px;
+	width: 130px;
+}
+
+.social-icon {
+	width: 30px;
+	height: 30px;
+	background: url(../images/social.png) no-repeat;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+
+
+.twitter {
+	background-position: 0 0;
+
+}
+
+.facebook {
+	background-position: -30px 0;
+
+}
+
+
+
+
+.google {
+	background-position: -60px 0;
+}
+
+
+
+
+#footer-logo {
+	float: right;
+	margin-top: 20px;
+	font-size: 10px;
+	text-align: right;
+}
+#footer-logo p {
+font-size: 12px;
+text-align: right;
+	color: white;
+}
+#button {
+    position: fixed;
+    top: 353px;
+    left: 0;
+    background: #a60825;
+    width: 28px;
+    height: 50px;
+    font: 40px Georgia;
+    color: #fff;
+    text-align: center;
+    border-radius: 0 5px 5px 0;
+    }
+#s_panel {
+    position: fixed;
+    top: 153px;
+    left: -100px;
+    background: #b80d0d;
+    width: 100px;
+    height: 150px;
+    padding: 100px 0 0 0;
+    border-radius: 0 5px 0 0;
+}
+.form-row {
+	margin-bottom: 8px;
+	overflow: hidden;
+}
+.form-row input {
+	float: right;
+	height: 19px;
+	line-height: 19px;
+	margin: 0px;
+	padding: 0px 5px;
+	width: 287px;
+	border: 1px solid #ABADB3;
+}
+.form-row textarea {
+	height: 90px;
+    line-height: 16px;
+    font-size: 12px;
+    padding: 0px 5px;
+    width: 404px;
+    border: 1px solid #ABADB3;
+}
+
+.form-row input[type=submit] {
+	padding:5px;
+	height:25px;
+	width:100%;
+	line-height: 10px;
+	background: #b03131;
+	color:white;
+}
+
+.form-row input[type=submit]:hover {
+	background:#8B0000;
+}
+
+.exit1 {
+	margin-bottom: 8px;
+	overflow: hidden;
+}
+.exit1 input {
+	float: right;
+	height: 19px;
+	line-height: 19px;
+	margin-right: 240px;
+    margin-top: 0px;
+	padding: 0px 5px;
+	width: 287px;
+	border: 1px solid #ABADB3;
+}
+.exit1 textarea {
+	height: 90px;
+    line-height: 16px;
+    font-size: 12px;
+    padding: 0px 5px;
+    width: 404px;
+    border: 1px solid #ABADB3;
+}
+
+.exit1 input[type=submit] {
+	padding:5px;
+	height:25px;
+	width:20%;
+	line-height: 10px;
+	background: #b03131;
+	color:white;
+}
+
+.exit1 input[type=submit]:hover {
+	background:#8B0000;
+}
+
+
+.reg-form {
+	width: 416px;
+	margin: 0 auto;
+}
+
+
+* {
+	font-family:arial;
+	font-size:10pt;
+}
+
+.form-1 {
+    /* Size & position */
+    width: 300px;
+    margin-left: 790px;
+    margin-bottom: 10px;
+    margin-top: -125px;
+    padding: 10px;
+    position: relative; /* For the submit button positioning */
+ 
+    /* Styles */
+    box-shadow:
+        0 0 1px rgba(0, 0, 0, 0.3),
+        0 3px 7px rgba(0, 0, 0, 0.3),
+        inset 0 1px rgba(255,255,255,1),
+        inset 0 -3px 2px rgba(0,0,0,0.25);
+    border-radius: 5px;
+    background: linear-gradient(#eeefef, #ffffff 10%);
+}
+ 
+.form-1 .field {
+    position: relative; /* For the icon positioning */
+}
+.form-1 input[type=text],
+.form-1 input[type=password] {  
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400px;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+ 
+    /* Size and position */
+    width: 85%;
+    height: 80%;
+    padding: 10px 18px 10px 20px;
+ 
+    /* Styles */
+    border: none; /* Remove the default border */
+    box-shadow:
+        inset 0 0 5px rgba(0,0,0,0.1),
+        inset 0 3px 2px rgba(0,0,0,0.1);
+    border-radius: 3px;
+    background: #f9f9f9;
+    color: #777;
+    transition: color 0.3s ease-out;
+}
+ 
+.form-1 input[type=text] {
+    margin-bottom: 5px;
+}
+
+.form-1 input[type=text],
+.form-1 input[type=password] {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+ 
+    /* Size and position */
+    width: 78%;
+   
+    padding: 10px 18px 10px 45px;
+ 
+    /* Styles */
+    border: none; /* Remove the default border */
+    box-shadow:
+        inset 0 0 5px rgba(0,0,0,0.1),
+        inset 0 3px 2px rgba(0,0,0,0.1);
+    border-radius: 3px;
+    background: #f9f9f9;
+    color: #777;
+    transition: color 0.3s ease-out;
+}
+ 
+.form-1 input[type=text] {
+    margin-bottom: 10px;
+}
+.form-1 input[type=text]:hover ~ i,
+.form-1 input[type=password]:hover ~ i {
+    color: #52cfeb;
+}
+ 
+.form-1 input[type=text]:focus ~ i,
+.form-1 input[type=password]:focus ~ i {
+    color: #42A2BC;
+}
+ 
+.form-1 input[type=text]:focus,
+.form-1 input[type=password]:focus,
+.form-1 button[type=submit]:focus {
+    outline: none;
+}
+.form-1 .submit {
+    /* Size and position */
+    width: 45px;
+    height: 30px;
+    position: absolute;
+    top: 35px;
+    right: 0px;
+    padding: 10px;
+    z-index: 2;
+ 
+    /* Styles */
+    
+}
+
+.form-1 button {
+    /* Size and position */
+    width: 100%;
+    height: 100%;
+    margin-top: -1px;
+ 
+    /* Icon styles */
+    font-size: 1.4em;
+    line-height: 1.75;
+    color: red;
+ 
+    /* Styles */
+    border: none; /* Remove the default border */
+    border-radius: inherit;
+    background: linear-gradient(#b80d0d,#b85d0d);
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,0.3),
+        0 1px 2px rgba(0,0,0,0.35),
+        inset 0 3px 2px rgba(255,255,255,0.2),
+        inset 0 -3px 2px rgba(0,0,0,0.1);
+ 
+    cursor: pointer;
+}
+.form-1 button:hover,
+.form-1 button[type=submit]:focus {
+    background: #b80d0d;
+  
+}
+ 
+.form-1 button:active {
+    background: #42A2BC;
+    box-shadow:
+        inset 0 0 5px rgba(0,0,0,0.3),
+        inset 0 3px 4px rgba(0,0,0,0.3);
+}
+.tab_container{
+    margin-left: 250px;
+    
+}
+.tab_container .active { 
+    color: red; 
+border-bottom: 1px solid #fff;
+    background: #fff;
+    
+}
+.tabs{
+    margin-left: 1em;
+}
+.tab{
+    cursor:pointer;
+    border:1px solid #ddd;
+    border-radius: 3px 3px 0 0;
+    padding: .5em 1em;
+    display:inline-block;
+    margin-bottom: -1px;
+position:relative;
+    z-index: 2;
+    background: #eee;
+}
+.tab_item{
+   
+    border-radius:6 px;
+    padding:0 1em;
+}
+.tab_item .figure{
+    margin-left: -200px
+}
+
+
